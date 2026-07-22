@@ -7,7 +7,7 @@ stored_data=[]
 
 @app.route('/home', methods=['GET'])
 def home():
-    return "Hello orca"
+    return "Hello !!!!"
 
 @app.route('/api/submit', methods=['POST'])
 def submit():
