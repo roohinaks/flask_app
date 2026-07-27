@@ -7,7 +7,7 @@ stored_data=[]
 
 @app.route('/home', methods=['GET'])
 def home():
-    return "Hello !!!!"
+    return "Jenkins Project Successfull!!!"
 
 @app.route('/api/submit', methods=['POST'])
 def submit():
